@@ -1,0 +1,34 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    background: #192159;
+}
+
+.color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column; /*row*/
+}
+
+#hexa{
+    font-size: 1.875rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    /*display: block;*/
+    margin: 0 0 0.937rem 0;/* lo correcto para separar elementos es margin y no padding(se usa para relleno) por una cuestion de estructura*/ 
+}
+
+#color{
+    background: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border: 0.187rem solid #ffffff;
+    border-radius: 1.562rem; 
+    padding: 0.625rem 0.937rem 0.625rem 0.937rem;
+    outline: none;  
+    cursor: pointer;
+}
